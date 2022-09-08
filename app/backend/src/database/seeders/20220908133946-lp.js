@@ -25,7 +25,7 @@ module.exports = {
           genre: 'R&B',
           image: 'https://upload.wikimedia.org/wikipedia/pt/b/ba/313x0w.jpg',
           price: 120,
-          description: 'Blonde é o terceiro álbum de estúdio do cantor e compositor norte-americano Frank Ocean, lançado em 20 de agosto de 2016, pela Def Jam Recordings',
+          description: 'Blonde é o terceiro álbum de estúdio do cantor e compositor norte-americano Frank Ocean, lançado em 20 de agosto de 2016, pela Def Jam Recordings.',
         },
         {
           title: 'Twin Fantasy',

@@ -16,14 +16,16 @@ export default class LpService {
   public static getBySearchTerm(searchTerm: string): Promise<ILp[]> {
     const lps = Lps.findAll({
       where: {
-        title: {
-          [Op.like]: `%${searchTerm}%`,
-        },
-      },
-    });
+        [Op.or]: [
+          { artist: { [Op.like]: `%${searchTerm}%` } },
+          { title: { [Op.like]: `%${searchTerm}%` } },
+          { genre: { [Op.like]: `%${searchTerm}%` } },
+        ],
+      } });
     return lps;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   public static async create(lp: ILp | any): Promise<ILp> {
     const newLp = await Lps.create(lp);
     return newLp;
