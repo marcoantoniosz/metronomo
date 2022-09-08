@@ -17,9 +17,9 @@ export default class LpService {
     const lps = Lps.findAll({
       where: {
         [Op.or]: [
-          { artist: { [Op.like]: `%${searchTerm}%` } },
-          { title: { [Op.like]: `%${searchTerm}%` } },
-          { genre: { [Op.like]: `%${searchTerm}%` } },
+          { artist: { [Op.iLike]: `%${searchTerm}%` } },
+          { title: { [Op.iLike]: `%${searchTerm}%` } },
+          { genre: { [Op.iLike]: `%${searchTerm}%` } },
         ],
       } });
     return lps;

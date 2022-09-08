@@ -6,10 +6,12 @@ const config: Options = {
   password: process.env.DB_PASS,
   database: process.env.DB_NAME,
   host: process.env.DB_HOST,
-  port: Number(process.env.DB_PORT) || 3306,
-  dialect: 'mysql',
+  dialect: 'postgres',
   dialectOptions: {
-    timezone: 'Z',
+    ssl: {
+      require: true,
+      rejectUnauthorized: false,
+    },
   },
   logging: false,
 };
