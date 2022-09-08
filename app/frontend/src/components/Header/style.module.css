@@ -1,13 +1,14 @@
 .header {
   width: 100%;
   height: 60px;
-  position: fixed;
   display: flex;
-  background-color: #F2D0D9;
   box-shadow: 3px 0px 0px 4px #F2A2B8;
+  background-color: #fafafa;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .logoContainer {
@@ -23,7 +24,6 @@
 .title {
   font-family: 'Garet';
   font-size: 24px;
-  display: none;
 }
 
 .searchButton {
@@ -31,11 +31,12 @@
 }
 
 .searchBar {
-  height: 30px;
+  height: 40px;
   border: none;
   border-radius: 30px;
-  width: 200px;
+  width: 400px;
   padding-left: 30px;
   font-family: 'Garet';
   font-weight: bolder;
+  background-color: #F2D0D9;
 }
