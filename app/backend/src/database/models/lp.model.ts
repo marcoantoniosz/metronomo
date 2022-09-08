@@ -1,4 +1,4 @@
-import { Model, INTEGER, STRING, NOW, DATE } from 'sequelize';
+import { Model, INTEGER, STRING, DATE } from 'sequelize';
 import db from '.';
 
 class Lp extends Model {
@@ -46,12 +46,12 @@ Lp.init({
   created: {
     type: DATE,
     allowNull: false,
-    defaultValue: NOW,
+    defaultValue: new Date(),
   },
   updated: {
     type: DATE,
     allowNull: false,
-    defaultValue: NOW,
+    defaultValue: new Date(),
   },
 }, {
   sequelize: db,
