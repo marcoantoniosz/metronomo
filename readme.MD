@@ -151,4 +151,4 @@ Deleta um item do banco de dados.
 
 O deploy foi realizado através do *Heroku* e pode ser acessado através do link abaixo:
 
-[METRONOMO BACKEND](https://metronomo-backend.herokuapp.com/)
+[METRONOMO BACKEND](https://metronomo-backend.herokuapp.com/lps)
