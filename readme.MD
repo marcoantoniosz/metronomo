@@ -4,6 +4,9 @@ Metronomo Discos é uma loja virtual de LPs.
 
 # Backend = app/backend
 
+## Arquitetura
+A API foi construída de acordo com os padrões REST e se estrutura na arquitetura MSC, além da camada de Middlewares.
+
 ## Tecnologias
 
 ### Linguagem
