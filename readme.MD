@@ -41,7 +41,7 @@ npm run lint
 * Script que analisa e aponta as más colocações de escrita de código.
 
 #### Validações
-As validações de entrada corpo da requisição foi feita através da biblioteca *Joi*.
+As validações de entrada do corpo da requisição foi feita através da biblioteca *Joi*.
 
 #### HTTP STATUS
 Os códigos HTTP foram facilitados através da biblioteca *https-status-codes*.
