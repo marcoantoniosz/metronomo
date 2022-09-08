@@ -1,5 +1,5 @@
 export default interface ILp {
-  name: string;
+  title: string;
   artist: string;
   description: string;
   price: number;
