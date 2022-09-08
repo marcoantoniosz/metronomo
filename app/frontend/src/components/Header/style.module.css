@@ -1,0 +1,41 @@
+.header {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  display: flex;
+  background-color: #F2D0D9;
+  box-shadow: 3px 0px 0px 4px #F2A2B8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin: 16px;
+}
+
+.title {
+  font-family: 'Garet';
+  font-size: 24px;
+  display: none;
+}
+
+.searchButton {
+  display: none;
+}
+
+.searchBar {
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  width: 200px;
+  padding-left: 30px;
+  font-family: 'Garet';
+  font-weight: bolder;
+}
