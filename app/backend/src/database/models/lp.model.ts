@@ -55,7 +55,7 @@ Lp.init({
   },
 }, {
   sequelize: db,
-  modelName: 'Lp',
+  modelName: 'lp',
   timestamps: false,
 });
 

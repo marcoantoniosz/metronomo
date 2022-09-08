@@ -1,10 +1,13 @@
 import * as express from 'express';
+import Lps from './routers/lp.routes';
 
 export default class App {
   public app: express.Express;
+  public lps: Lps;
 
   constructor() {
     this.app = express();
+    this.lps = new Lps();
     this.config();
     this.app.get('/', (req, res) => res.json({ ok: true }));
   }
@@ -18,6 +21,7 @@ export default class App {
     };
     this.app.use(express.json());
     this.app.use(accessControl);
+    this.app.use(this.lps.router);
   }
 
   public start(PORT: string | number): void {
