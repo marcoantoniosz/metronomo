@@ -1,7 +1,6 @@
 .preview {
   width: 700px;
-  height: 700px;
-  margin-top: 10px;
+  height: 670px;
   margin-left: 10px;
   border-radius: 10px;
   background-color: #fafafa;
@@ -10,6 +9,8 @@
   align-items: center;
   justify-content: space-around;
   padding: 50px;
+  position: sticky;
+  top: 0;
 }
 
 .previewCover {
@@ -55,7 +56,7 @@
 }
 
 .previewParagraph {
-  width: 690px;
+  width: 650px;
   height: 100px;
   padding: 10px;
   font-size: 15px;

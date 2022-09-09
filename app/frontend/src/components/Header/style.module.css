@@ -10,33 +10,3 @@
   padding-left: 100px;
   padding-right: 100px;
 }
-
-.logoContainer {
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  height: 50px;
-  margin: 16px;
-}
-
-.title {
-  font-family: 'Garet';
-  font-size: 24px;
-}
-
-.searchButton {
-  display: none;
-}
-
-.searchBar {
-  height: 40px;
-  border: none;
-  border-radius: 30px;
-  width: 400px;
-  padding-left: 30px;
-  font-family: 'Garet';
-  font-weight: bolder;
-  background-color: #F2D0D9;
-}
