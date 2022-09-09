@@ -1,0 +1,14 @@
+.searchButton {
+  display: none;
+}
+
+.searchBar {
+  height: 40px;
+  border: none;
+  border-radius: 30px;
+  width: 400px;
+  padding-left: 30px;
+  font-family: 'Garet';
+  font-weight: bolder;
+  background-color: #F2D0D9;
+}
