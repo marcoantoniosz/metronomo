@@ -1,0 +1,33 @@
+.form {
+  font-weight: bolder;
+  margin: 0 auto;
+  display: flex;
+  width: 700px;
+  height: 500px;
+  border-radius: 30px;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.form input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  padding-left: 30px;
+  font-family: 'Garet';
+  background-color: #F2D0D9;
+}
+
+.form button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Garet';
+  background-color: #9ad7fc;
+  cursor: pointer;
+  font-size: 30px;
+}
