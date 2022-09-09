@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin: 16px;
+}
+
+.title {
+  font-family: 'Garet';
+  font-size: 24px;
+}
