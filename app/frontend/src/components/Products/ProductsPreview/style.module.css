@@ -1,0 +1,112 @@
+.preview {
+  width: 700px;
+  height: 700px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.previewCover {
+  width: 300px;
+}
+
+.previewButton {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Garet';
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.previewButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.previewTxts {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.tags h3 {
+  width: 80px;
+  text-align: center;
+  border-radius: 40px;
+  background-color: #D95E52 ;
+}
+
+.previewParagraph {
+  width: 690px;
+  height: 100px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: #F2D0D9;
+}
+
+.editForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 700px;
+  height: 500px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.editForm input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  padding-left: 30px;
+  font-family: 'Garet';
+  background-color: #F2D0D9;
+}
+
+.editForm textarea {
+  width: 300px;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: 'Garet';
+  background-color: #F2D0D9;
+}
+
+.editForm button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  font-family: 'Garet';
+  background-color: #9ad7fc;
+  cursor: pointer;
+}
+
+.editFormBtns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 300px;
+}
