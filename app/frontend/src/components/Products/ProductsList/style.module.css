@@ -1,0 +1,10 @@
+.list {
+  width: 500px;
+  padding-top: 30px;
+}
+
+.error {
+  font-size: 20px;
+  text-align: center;
+  color: red;
+}
