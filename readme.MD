@@ -64,7 +64,20 @@ npm run start
 ### Rotas GET:
 
 #### /lps
-Retorna todos os discos cadastrados na loja.
+Retorna todos os discos cadastrados na loja, no seguinte formato:
+```python
+{
+"id": number,
+"title": string,
+"artist": string,
+"genre":string,
+"image": string,
+"description": string,
+"price": number,
+"created": DATE,
+"updated": DATE
+}
+````
 
 #### /lps/search
 Retorna todos os discos por termo de busca (título, nome do artista ou gênero musical). Exemplos:
@@ -155,3 +168,25 @@ Deleta um item do banco de dados.
 O deploy foi realizado através do *Heroku* e pode ser acessado através do link abaixo:
 
 [METRONOMO BACKEND](https://metronomo-backend.herokuapp.com/lps)
+
+# Frontend = app/frontend
+
+## Tecnologias
+
+### Linguagem
+A aplicação foi construída em *JavaScript*.
+
+### Framework
+Para construção da UI foi utilizada a biblioteca *ReactJS*.
+
+### Gerenciamento de Estado
+A *Context API* do *React* foi utilizada para gerenciamento de estado.
+
+### Estilização
+A estilização (apenas desktop) foi feita com CSS puro.
+
+## Deployment/Produção
+
+O deploy foi realizado através do *Heroku* e pode ser acessado através do link abaixo:
+
+[METRONOMO FRONTEND](https://metronomodiscos.herokuapp.com)
